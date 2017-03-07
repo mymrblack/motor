@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Dec 14 09:52:19 2016">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="b6312d605ae44fdbaf9b55b2167cb5f7" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="CloseProject" value="2" type="JavaHandler"/>
+<property name="CoreView" value="1" type="JavaHandler"/>
+<property name="CustomizeCore" value="1" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="1" type="JavaHandler"/>
+<property name="EditInIPPackagerHandler" value="1" type="JavaHandler"/>
+<property name="IPPackagerHandler" value="1" type="JavaHandler"/>
+<property name="IPPackagerWizardHandler" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, dec_pwm_0 ; S00_AXI ; S00_AXI_reg ; 0x43C0_0000 ; 64K ; 0x43C0_FFFF, 2, S00_AXI, 1, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, dec_pwm_0 ; S00_AXI ; S00_AXI_reg ; 0x43C0_0000 ; 64K ; 0x43C0_FFFF, 2, dec_pwm_0, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, dec_pwm_v1.0 ; AXI4 ; Pre-Production ; Included ; xilinx.com:user:dec_pwm:1.0, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, dec_pwm_v1.0 ; AXI4 ; Pre-Production ; Included ; xilinx.com:user:dec_pwm:1.0, 2, dec_pwm_v1.0, 0, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, dec_pwm_v1.0 ; AXI4 ; Pre-Production ; Included ; xilinx.com:user:dec_pwm:1.0, 2, dec_pwm_v1.0, 0, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, Edit in IP Packager" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, Create and Package IP..." value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, pin.xdc], 4, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, pin.xdc], 4, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, IP-XACT], 2" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, dec_pwm_v1_0 (dec_pwm_v1_0.v" value="17" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, pwm_design_1_wrapper (pwm_design_1_wrapper.v" value="13" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, IP Catalog], 4, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EDIT, Edit" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FLOW, Flow" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_REPORT, Report" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_TOOLS, Tools" value="8" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_VIEW, View" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_WINDOW, Window" value="6" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, Compatibility, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, Customization Parameters, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, File Groups, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, Ports and Interfaces, 4" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectMenu_HIGHLIGHT, Highlight" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, IP Documentation" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemTreeView_SYSTEM_TREE, [pwm_design_1, Ports], 3" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="2" type="GuiResourceData"/>
+<property name="RDIResource.MainWinMenuMgr_LAYOUT, Layout" value="4" type="GuiResourceData"/>
+<property name="RDIResource.ProgressDialog_BACKGROUND, Background" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 172, 544" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 177, 430" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 184, 532" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 190, 487" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 216, 141" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 227, 133" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 232, 155" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 254, 112" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 26, 122" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 260, 82" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 282, 162" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 282, 255" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 282, 433" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 282, 81" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 284, 121" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 284, 417" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 287, 453" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 288, 431" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 288, 449" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 292, 316" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 296, 201" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 30, 144" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 301, 287" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 306, 219" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 308, 55" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 31, 124" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 317, 241" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 318, 236" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 32, 143" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 323, 221" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 338, 222" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 394, 312" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 492, 175" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 506, 142" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 525, 121" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 591, 504" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 88, 123" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 88, 144" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 90, 126" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 92, 139" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 92, 140" value="1" type="GuiResourceData"/>
+<property name="dec_pwm_v1_0_S00_AXI.v, 94, 124" value="1" type="GuiResourceData"/>
+<property name="frq_cal.v, 173, 276" value="1" type="GuiResourceData"/>
+<property name="frq_cal.v, 184, 264" value="1" type="GuiResourceData"/>
+<property name="frq_cal.v, 225, 160" value="1" type="GuiResourceData"/>
+<property name="frq_cal.v, 232, 91" value="1" type="GuiResourceData"/>
+<property name="frq_cal.v, 347, 71" value="1" type="GuiResourceData"/>
+<property name="frq_cal.v, 378, 110" value="1" type="GuiResourceData"/>
+<property name="pin.xdc, 347, 235" value="1" type="GuiResourceData"/>
+<property name="pin.xdc, 458, 146" value="1" type="GuiResourceData"/>
+<property name="pin.xdc, 493, 166" value="1" type="GuiResourceData"/>
+<property name="pwm.v, 167, 161" value="1" type="GuiResourceData"/>
+<property name="pwm.v, 209, 125" value="1" type="GuiResourceData"/>
+<property name="pwm.v, 214, 95" value="1" type="GuiResourceData"/>
+<property name="pwm.v, 218, 164" value="1" type="GuiResourceData"/>
+<property name="pwm_design_1.v, 101, 195" value="1" type="GuiResourceData"/>
+<property name="pwm_design_1.v, 128, 205" value="1" type="GuiResourceData"/>
+<property name="pwm_design_1.v, 199, 208" value="1" type="GuiResourceData"/>
+<property name="pwm_design_1.v, 207, 98" value="1" type="GuiResourceData"/>
+<property name="pwm_design_1.v, 298, 165" value="1" type="GuiResourceData"/>
+<property name="pwm_design_1.v, 441, 119" value="1" type="GuiResourceData"/>
+<property name="pwm_design_1.v, 83, 142" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="11" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="9" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

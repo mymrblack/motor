@@ -1,0 +1,214 @@
+16:17:33 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\temp_xsdb_launch_script.tcl
+16:17:36 INFO  : XSDB server has started successfully.
+16:17:37 INFO  : Processing command line option -hwspec E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/pwm_design_1_wrapper.hdf.
+16:21:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:21:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248691185" && level==0} -index 1' command is executed.
+16:21:30 INFO  : FPGA configured successfully with bitstream "E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/pwm_design_1_wrapper_hw_platform_0/pwm_design_1_wrapper.bit"
+16:21:54 INFO  : ps7_init is completed.
+16:21:54 INFO  : ps7_post_config is completed.
+16:21:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:22:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:22:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:23:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:24:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:27:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:27:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248691185" && level==0} -index 1' command is executed.
+16:27:35 INFO  : FPGA configured successfully with bitstream "E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/pwm_design_1_wrapper_hw_platform_0/pwm_design_1_wrapper.bit"
+16:28:22 INFO  : ps7_init is completed.
+16:28:22 INFO  : ps7_post_config is completed.
+16:28:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:39:23 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:15:43 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\temp_xsdb_launch_script.tcl
+20:15:49 INFO  : XSDB server has started successfully.
+19:57:41 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\temp_xsdb_launch_script.tcl
+19:57:43 INFO  : XSDB server has started successfully.
+19:59:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:59:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685614" && level==0} -index 1' command is executed.
+19:59:14 INFO  : FPGA configured successfully with bitstream "E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/pwm_design_1_wrapper_hw_platform_0/pwm_design_1_wrapper.bit"
+20:02:06 INFO  : ps7_init is completed.
+20:02:06 INFO  : ps7_post_config is completed.
+20:02:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:03:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:05:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:07:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:26:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:26:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685614" && level==0} -index 1' command is executed.
+20:26:12 INFO  : FPGA configured successfully with bitstream "E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/pwm_design_1_wrapper_hw_platform_0/pwm_design_1_wrapper.bit"
+20:26:41 INFO  : ps7_init is completed.
+20:26:41 INFO  : ps7_post_config is completed.
+20:26:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:38:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:38:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685614" && level==0} -index 1' command is executed.
+20:39:01 INFO  : FPGA configured successfully with bitstream "E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/pwm_design_1_wrapper_hw_platform_0/pwm_design_1_wrapper.bit"
+20:39:14 INFO  : ps7_init is completed.
+20:39:14 INFO  : ps7_post_config is completed.
+20:39:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:02:45 ERROR : Exception while reading file E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\fsbl
+java.io.FileNotFoundException: E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\fsbl (¾Ü¾ø·ÃÎÊ¡£)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at com.xilinx.sdk.utils.XFileUtils.read(XFileUtils.java:77)
+	at com.xilinx.sdk.bootimage.internal.ui.BootgenDialog$DiffElement.<init>(BootgenDialog.java:370)
+	at com.xilinx.sdk.bootimage.internal.ui.BootgenDialog$DiffElement.<init>(BootgenDialog.java:367)
+	at com.xilinx.sdk.bootimage.internal.ui.BootgenDialog$4.prepareInput(BootgenDialog.java:352)
+	at org.eclipse.compare.CompareEditorInput.run(CompareEditorInput.java:484)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+21:03:44 INFO  : Invoking Bootgen: bootgen -image fsbl.bif -arch zynq -o E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\fsbl\BOOT.mcs
+21:03:44 INFO  : Creating new bif file E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\fsbl\fsbl.bif
+21:03:48 INFO  : Bootgen command execution is done.
+21:19:32 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:31:07 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\temp_xsdb_launch_script.tcl
+16:31:10 INFO  : XSDB server has started successfully.
+16:31:11 INFO  : Processing command line option -hwspec E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/pwm_design_1_wrapper.hdf.
+16:31:11 INFO  : Checking for hwspec changes in the project pwm_design_1_wrapper_hw_platform_0.
+16:31:14 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1481790578400,  Project:1470212216905
+16:31:14 INFO  : The hardware specification for project 'pwm_design_1_wrapper_hw_platform_0' is different from E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/pwm_design_1_wrapper.hdf.
+16:31:14 INFO  : Copied contents of E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/pwm_design_1_wrapper.hdf into \pwm_design_1_wrapper_hw_platform_0\system.hdf.
+16:31:21 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:31:22 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: ¾Ü¾ø·ÃÎÊ¡£: "C:/Users/13282/AppData/Local/Temp\msdtadmin"
+
+16:31:22 ERROR : Failed to call sync_sw_with_hw_change
+Reason: ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+
+16:31:22 ERROR : Error updating BSP project MSS files.
+16:31:22 INFO  : Updating hardware inferred compiler options for motor.
+16:31:22 INFO  : Clearing existing target manager status.
+16:32:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:32:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685614" && level==0} -index 1' command is executed.
+16:32:20 INFO  : FPGA configured successfully with bitstream "E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/pwm_design_1_wrapper_hw_platform_0/pwm_design_1_wrapper.bit"
+16:32:25 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+16:32:25 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+16:32:25 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+16:32:25 INFO  : Unable to read in MSS file E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\motor_bsp\system.mss : null
+16:32:25 ERROR : Failed to closesw "E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/motor_bsp/system.mss"
+Reason: Cannot close sw design 'E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/motor_bsp/system.mss'.
+Design is not opened in the current session.
+
+
+16:32:39 INFO  : ps7_init is completed.
+16:32:39 INFO  : ps7_post_config is completed.
+16:32:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:36:44 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+16:36:44 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+16:36:44 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+16:36:44 INFO  : Unable to read in MSS file E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\motor_bsp\system.mss : null
+16:36:44 ERROR : Failed to closesw "E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/motor_bsp/system.mss"
+Reason: Cannot close sw design 'E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/motor_bsp/system.mss'.
+Design is not opened in the current session.
+
+
+16:36:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:38:23 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+16:38:23 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+16:38:23 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+16:38:23 INFO  : Unable to read in MSS file E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\motor_bsp\system.mss : null
+16:38:23 ERROR : Failed to closesw "E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/motor_bsp/system.mss"
+Reason: Cannot close sw design 'E:/Mycode/Verilog/pwm_dec1/pwm_dec1.sdk/motor_bsp/system.mss'.
+Design is not opened in the current session.
+
+
+16:38:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:46:49 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynq -o E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\fsbl_1\BOOT.mcs
+16:46:49 INFO  : Creating new bif file E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\fsbl_1\output.bif
+16:46:53 INFO  : Bootgen command execution is done.
+22:07:37 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:13:22 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\temp_xsdb_launch_script.tcl
+10:13:28 INFO  : XSDB server has started successfully.
+10:47:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:47:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685614" && level==0} -index 1' command is executed.
+10:47:05 INFO  : FPGA configured successfully with bitstream "E:/Mycode/Verilog/pwm_dec1/pwm_dec1.runs/impl_1/pwm_design_1_wrapper.bit"
+10:48:21 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Debug Operation Not Supported on the Target, Current Processor State is not "Stopped"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:49:00 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Debug Operation Not Supported on the Target, Current Processor State is not "Stopped"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:701)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:49:31 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Debug Operation Not Supported on the Target, Current Processor State is not "Stopped"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:49:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:49:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685614" && level==0} -index 1' command is executed.
+10:50:02 INFO  : FPGA configured successfully with bitstream "E:/Mycode/Verilog/pwm_dec1/pwm_dec1.runs/impl_1/pwm_design_1_wrapper.bit"
+10:50:24 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Debug Operation Not Supported on the Target, Current Processor State is not "Stopped"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+10:51:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:51:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685614" && level==0} -index 1' command is executed.
+10:51:41 INFO  : FPGA configured successfully with bitstream "E:/Mycode/Verilog/pwm_dec1/pwm_dec1.runs/impl_1/pwm_design_1_wrapper.bit"
+10:51:57 INFO  : ps7_init is completed.
+10:51:58 INFO  : ps7_post_config is completed.
+10:51:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:55:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:56:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:01:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:06:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:09:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:11:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:59:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:59:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248685614" && level==0} -index 1' command is executed.
+15:59:19 INFO  : FPGA configured successfully with bitstream "E:/Mycode/Verilog/pwm_dec1/pwm_dec1.runs/impl_1/pwm_design_1_wrapper.bit"
+15:59:34 INFO  : ps7_init is completed.
+15:59:34 INFO  : ps7_post_config is completed.
+15:59:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:04:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:12:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:14:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:27:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:42:33 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:18:50 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\temp_xsdb_launch_script.tcl
+15:18:55 INFO  : XSDB server has started successfully.
+15:21:30 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynq -o E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\fsbl_1\BOOT.mcs -w on
+15:21:30 INFO  : Overwriting existing bif file E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\fsbl_1\output.bif
+15:21:33 INFO  : Bootgen command execution is done.

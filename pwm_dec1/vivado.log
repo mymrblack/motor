@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Jan 09 15:11:56 2017
+# Process ID: 20148
+# Current directory: E:/Mycode/Verilog/pwm_dec1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18660 E:\Mycode\Verilog\pwm_dec1\pwm_dec1.xpr
+# Log file: E:/Mycode/Verilog/pwm_dec1/vivado.log
+# Journal file: E:/Mycode/Verilog/pwm_dec1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Mycode/Verilog/pwm_dec1/pwm_dec1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Mycode/Verilog/DecPwmip_repo/dec_pwm_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'pwm_design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+pwm_design_1_dec_pwm_0_0
+
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 768.430 ; gain = 172.676
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 09 15:14:03 2017...

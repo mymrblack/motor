@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = MCS
+the_ROM_image:
+{
+	[bootloader]E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\fsbl\zynq_fsbl.elf
+	E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\fsbl\pwm_design_1_wrapper.bit
+	E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\fsbl\motor.elf
+}

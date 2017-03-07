@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="pwm_design_1_wrapper_hw_platform_0" key="programflash.hwplatform"/>
+	<item value="false" key="pwm_design_1_wrapper_hw_platform_0-verifyFlash"/>
+	<item value="Local" key="pwm_design_1_wrapper_hw_platform_0-target"/>
+	<item value="E:\Mycode\Verilog\pwm_dec1\pwm_dec1.sdk\fsbl_1\BOOT.mcs" key="pwm_design_1_wrapper_hw_platform_0-imgFile"/>
+	<item value="" key="pwm_design_1_wrapper_hw_platform_0-fsblFile"/>
+	<item value="qspi_single" key="pwm_design_1_wrapper_hw_platform_0-flashType"/>
+	<item value="" key="pwm_design_1_wrapper_hw_platform_0-offSet"/>
+	<item value="false" key="pwm_design_1_wrapper_hw_platform_0-blankCheck"/>
+	<item value="Auto Detect" key="pwm_design_1_wrapper_hw_platform_0-device"/>
+</section>
